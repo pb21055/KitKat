@@ -10,11 +10,11 @@ string returnResults = to_string(num);
     } 
     else if (num % 3 == 0) 
     {
-        returnResults = "Kit!";
+        returnResults = "Kit";
     } 
     else if (num % 5 == 0) 
     {
-        returnResults = "Kat!";
+        returnResults = "Kat";
     } 
 
     return returnResults;

@@ -20,13 +20,13 @@ TEST(returnKit)
     string testString;
 
     testString = KitKat(3);
-    ASSERT_EQUAL(testString, "Kit!");
+    ASSERT_EQUAL(testString, "Kit");
 
     testString = KitKat(9);
-    ASSERT_EQUAL(testString, "Kit!");
+    ASSERT_EQUAL(testString, "Kit");
 
     testString = KitKat(27);
-    ASSERT_EQUAL(testString, "Kit!");
+    ASSERT_EQUAL(testString, "Kit");
 }
 
 TEST(returnKat)
@@ -34,13 +34,13 @@ TEST(returnKat)
     string testString;
 
     testString = KitKat(5);
-    ASSERT_EQUAL(testString, "Kat!");
+    ASSERT_EQUAL(testString, "Kat");
 
     testString = KitKat(10);
-    ASSERT_EQUAL(testString, "Kat!");
+    ASSERT_EQUAL(testString, "Kat");
 
     testString = KitKat(25);
-    ASSERT_EQUAL(testString, "Kat!");
+    ASSERT_EQUAL(testString, "Kat");
 }
 
 TEST(returnKitKat)
